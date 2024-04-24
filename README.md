@@ -99,7 +99,3 @@ Contributions to this repository are welcome! If you have any ideas for improvem
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to customize this template as needed for your specific repository. You can also add more details or sections as you see fit. Happy coding!
