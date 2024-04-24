@@ -50,31 +50,31 @@ Below are some example images demonstrating the effect of each implemented metho
 
 - **Image Negative**:
 
-  ![Image Negative Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/images/neg.png)
+  ![Image Negative Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/blob/main/images/neg.png)
 
 - **Gamma Correction**:
 
-  ![Gamma Correction Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/images/gama.png)
+  ![Gamma Correction Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/blob/main/images/gama.png)
 
 - **Logarithmic Transformation**:
 
-  ![Logarithmic Transformation Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/images/log.png)
+  ![Logarithmic Transformation Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/blob/main/images/log.png)
 
 - **Contrast Stretching**:
 
-  ![Contrast Stretching Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/images/contrast_stretching.png)
+  ![Contrast Stretching Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/blob/main/images/contrast_stretching.png)
 
 - **Histogram Equalization**:
 
-  ![Histogram Equalization Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/images/hist.png)
+  ![Histogram Equalization Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/blob/main/images/hist.png)
 
 - **Intensity Level Slicing**:
 
-  ![Intensity Level Slicing Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/images/intensity.png)
+  ![Intensity Level Slicing Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/blob/main/images/intensity.png)
 
 - **Bit Plane Slicing**:
 
-  ![Bit Plane Slicing Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/images/bit_plane_slicing.png)
+  ![Bit Plane Slicing Example](https://github.com/birehan/Digital-Image-Processing-Elementary-Methods/blob/main/images/bit_plane_slicing.png)
 
 ## Streamlit App
 
