@@ -1,7 +1,6 @@
 import numpy as np
-from skimage import img_as_float, img_as_ubyte
+from skimage import img_as_float, img_as_ubyte, exposure
 from skimage.exposure import rescale_intensity
-import cv2
 
 def image_negative(image):
     """Apply negative transformation to an image."""
@@ -26,16 +25,14 @@ def contrast_stretching(image, low_percentile, high_percentile):
     p2, p98 = np.percentile(image, (low_percentile, high_percentile))
     return img_as_ubyte(rescale_intensity(image, in_range=(p2, p98)))
    
-
 def histogram_equalization(image):
     """Apply histogram equalization to the image."""
     image = np.array(image)
     if len(image.shape) == 2:  # grayscale image
-        equalized_img = cv2.equalizeHist(image)
+        equalized_img = exposure.equalize_hist(image)
     else:  # RGB image
-        channels = cv2.split(image)
-        eq_channels = [cv2.equalizeHist(channel) for channel in channels]
-        equalized_img = cv2.merge(eq_channels)
+        channels = [exposure.equalize_hist(channel) for channel in np.rollaxis(image, 2)]
+        equalized_img = np.dstack(channels)
     return img_as_ubyte(equalized_img)
  
 def intensity_level_slicing(image, low, high):
