@@ -1,2 +1,4 @@
-Pillow
-opencv-python
+streamlit==1.33.0
+matplotlib==3.7.5
+scikit-image==0.21.0
+opencv-python==4.9.0.80
